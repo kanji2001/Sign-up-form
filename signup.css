@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(105, 117, 131);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_side{
+    background-color:rgb(42, 49, 77);
+    height: 70%;
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom-left-radius: 10px;
+}
+.text{
+    font-size: 0.9rem;
+}
+
+.heading{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.host_text{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.left_side img{
+    height: 8rem;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 1.05rem;
+}
+.left_footer{
+    font-weight: 700;
+}
+
+/* right_side */
+.right_side{
+    background-color: white;
+    height: 70%;
+    width: 25%;
+    border-bottom-right-radius: 10px;
+    padding-top: 100px;
+}
+
+.right_side p{
+    text-align: center;
+}
+#rs_contant{
+    color: rgb(170, 172, 179);
+    font-size: 14px;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.name_input{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    gap: 5px;
+}
+#name{
+    padding: 8px;
+    width: 120px;
+}
+#same{
+    padding: 8px;
+    width: 245px;
+    position: relative;
+    left: 68px;
+}
+.input_email{
+    margin-top: 18px;
+}
+.date{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(45, 107, 242);
+    color: white;
+    padding: 6px 89px;
+    border: none; 
+    font-size: 18px;   
+}
